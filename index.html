@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CheeseYKek — Cheesey as You</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍰</text></svg>">
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ══ NAVBAR ══ -->
+<nav class="navbar navbar-expand-lg ck-navbar">
+  <div class="container">
+    <a class="navbar-brand ck-navbar" href="index.html">
+      CheeseYKek<span>.</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navMenu" aria-controls="navMenu"
+            aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto gap-1 py-2 py-lg-0 align-items-lg-center">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="feedback.html">Feedback</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ══ HERO ══ -->
+<section class="hero-section">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6 col-md-12">
+        <div class="hero-badge">✦ No-Bake · Handcrafted · Fresh Daily</div>
+        <h1 class="hero-title">
+          <em>Cheesey as You</em> —<br>
+          Every Single Slice
+        </h1>
+        <p class="hero-desc">
+          Dreamy no-bake cheesecakes, silky puddings, and fluffy pancakes — all made fresh each morning with love and the finest ingredients.
+        </p>
+        <div class="d-flex flex-wrap gap-3">
+          <a href="about.html" class="btn-ck-primary">Our Story</a>
+          <a href="contact.html" class="btn-ck-outline">Order Now</a>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <div class="hero-visual">
+          <div class="hero-cake-card text-center">
+  <img src="image.png"
+       alt="No-Bake Cheesecake"
+       class="img-fluid rounded-4 mb-3"
+       style="max-width: 220px;">
+
+  <div class="cake-name">No-Bake Cheesecake</div>
+  <span class="cake-tag">Signature · Made Fresh</span>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ STATS BAR ══ -->
+<div class="stats-bar">
+  <div class="container">
+    <div class="row g-3 justify-content-center text-center">
+      <div class="col-6 col-md-3">
+        <div class="stat-item">
+          <span class="num" data-count="5000" data-suffix="+">0</span>
+          <span class="lbl">Happy Customers</span>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="stat-item">
+          <span class="num" data-count="18" data-suffix="">0</span>
+          <span class="lbl">Dessert Varieties</span>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="stat-item">
+          <span class="num" data-count="3" data-suffix=" Yrs">0</span>
+          <span class="lbl">Crafting Joy</span>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="stat-item">
+          <span class="num" data-count="100" data-suffix="%">0</span>
+          <span class="lbl">Fresh Ingredients</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══ MENU ══ -->
+<section class="menu-section">
+  <div class="container">
+    <div class="text-center mb-5 reveal">
+      <span class="section-tag">Our Menu</span>
+      <h2 class="section-title">Made with <em>Pure Joy</em></h2>
+      <div class="ck-divider center"></div>
+      <p class="section-sub mx-auto" style="max-width:520px;">
+        Every item is crafted in small batches — no shortcuts, no compromises. Just pure, honest desserts that taste like a warm hug.
+      </p>
+    </div>
+
+    <!-- Category Tabs -->
+    <div class="menu-tabs-wrap text-center mb-5 reveal">
+      <div class="menu-tabs d-inline-flex gap-2 flex-wrap justify-content-center">
+        <button class="menu-tab active" data-cat="cheesecakes">🍰 Cheesecakes</button>
+        <button class="menu-tab" data-cat="puddings">🍮 Puddings</button>
+        <button class="menu-tab" data-cat="pancakes">🥞 Pancakes</button>
+      </div>
+    </div>
+
+    <!-- CHEESECAKES -->
+    <div class="menu-cat" id="cat-cheesecakes">
+      <div class="row g-4">
+
+        <div class="col-sm-6 col-lg-4 reveal">
+          <div class="menu-card h-100">
+            <span class="card-icon">🍰</span>
+            <h5>Classic</h5>
+            <p>The one that started it all. Silky cream cheese on a buttery digestive biscuit crust — pure, no-fuss chilled perfection.</p>
+            <span class="price-tag">FROM ₹260 / SLICE</span>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 reveal">
+          <div class="menu-card h-100">
+            <span class="card-icon">🫐</span>
+            <h5>Blueberry</h5>
+            <p>Cream cheese layered with a glossy blueberry compote and a hint of lemon. Light, tangy, and utterly irresistible.</p>
+            <span class="price-tag">FROM ₹300 / SLICE</span>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 reveal">
+          <div class="menu-card h-100">
+            <span class="card-icon">🍓</span>
+            <h5>Strawberry</h5>
+            <p>Fresh strawberry coulis swirled into creamy cheesecake filling — sweet, fruity, and beautifully pink.</p>
+            <span class="price-tag">FROM ₹300 / SLICE</span>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 reveal">
+          <div class="menu-card h-100">
+            <span class="card-icon">🍫</span>
+            <h5>Nutella</h5>
+            <p>A dreamy ribbon of Nutella folded through cream cheese on a chocolatey crust. Hazelnut heaven in every bite.</p>
+            <span class="price-tag">FROM ₹340 / SLICE</span>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 reveal">
+          <div class="menu-card h-100">
+            <span class="card-icon">🍪</span>
+            <h5>Biscoff</h5>
+            <p>Luscious Biscoff spread and crushed Lotus cookies throughout — caramelised, spiced, and wildly addictive.</p>
+            <span class="price-tag">FROM ₹340 / SLICE</span>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 reveal">
+          <div class="menu-card h-100">
+            <span class="card-icon">🖤</span>
+            <h5>Dark Chocolate</h5>
+            <p>Rich 70% dark chocolate folded into cream cheese on an Oreo crust. Deep, decadent, and deeply satisfying.</p>
+            <span class="price-tag">FROM ₹340 / SLICE</span>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 offset-lg-2 reveal">
+          <div class="menu-card h-100">
+            <span class="card-icon">🌈</span>
+            <h5>Jelly Base</h5>
+            <p>A vibrant, wobbly jelly layer crowning our classic cream cheese — colourful, playful, and absolutely show-stopping.</p>
+            <span class="price-tag">FROM ₹320 / SLICE</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- PUDDINGS -->
+    <div class="menu-cat d-none" id="cat-puddings">
+      <div class="row g-4">
+
+        <div class="col-sm-6 col-lg-3 reveal">
+          <div class="menu-card h-100">
+            <span class="card-icon">🥭</span>
+            <h5>Mango Pudding</h5>
+            <p>Sunshine in a cup — fresh Alphonso mango purée set into a silky, tropical pudding. Utterly seasonal and stunning.</p>
+            <span class="price-tag">FROM ₹160 / CUP</span>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 reveal">
+          <div class="menu-card h-100">
+            <span class="card-icon">🍓</span>
+            <h5>Strawberry Pudding</h5>
+            <p>Berry-bright strawberry pudding layered with cream — fresh, fruity, and a gorgeous blush pink throughout.</p>
+            <span class="price-tag">FROM ₹160 / CUP</span>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 reveal">
+          <div class="menu-card h-100">
+            <span class="card-icon">🍮</span>
+            <h5>Custard Pudding</h5>
+            <p>A classic wobbling caramel custard pudding made daily with farm-fresh eggs and pure vanilla. Timeless and comforting.</p>
+            <span class="price-tag">FROM ₹150 / CUP</span>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 reveal">
+          <div class="menu-card h-100">
+            <span class="card-icon">🍏</span>
+            <h5>Apple Pudding</h5>
+            <p>Warm spiced apple compote resting beneath a cloud of vanilla cream pudding. Like a hug from autumn itself.</p>
+            <span class="price-tag">FROM ₹170 / CUP</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- PANCAKES -->
+    <div class="menu-cat d-none" id="cat-pancakes">
+      <div class="row g-4 justify-content-center">
+
+        <div class="col-sm-8 col-md-5 col-lg-4 reveal">
+          <div class="menu-card h-100 text-center">
+            <span class="card-icon">🥞</span>
+            <h5>Classic Stack</h5>
+            <p>Fluffy, golden pancakes stacked high with maple syrup and a pat of butter. Simple, satisfying, and perfect any time of day.</p>
+            <span class="price-tag">FROM ₹180 / STACK</span>
+          </div>
+        </div>
+
+        <div class="col-sm-8 col-md-5 col-lg-4 reveal">
+          <div class="menu-card h-100 text-center">
+            <span class="card-icon">🍓</span>
+            <h5>Berry Bliss Pancakes</h5>
+            <p>Soft pancakes topped with a mixed berry compote, whipped cream, and a drizzle of honey. A fruity morning dream.</p>
+            <span class="price-tag">FROM ₹220 / STACK</span>
+          </div>
+        </div>
+
+        <div class="col-sm-8 col-md-5 col-lg-4 reveal">
+          <div class="menu-card h-100 text-center">
+            <span class="card-icon">🍫</span>
+            <h5>Nutella Pancakes</h5>
+            <p>Warm fluffy pancakes slathered with Nutella, topped with banana slices and crushed hazelnuts. Indulgent to the last bite.</p>
+            <span class="price-tag">FROM ₹240 / STACK</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══ SPECIAL BANNER ══ -->
+<section class="special-banner reveal">
+  <div class="container text-center">
+    <span class="section-tag">Custom Orders</span>
+    <h2 class="section-title mt-2">Have a Special <em>Occasion?</em></h2>
+    <div class="ck-divider center"></div>
+    <p class="section-sub mx-auto mb-4" style="max-width: 520px;">
+      We love making custom cheesecakes for birthdays, anniversaries, and celebrations. Place orders at least 48 hours in advance.
+    </p>
+    <a href="contact.html" class="btn-ck-primary">Get a Custom Cake</a>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer class="ck-footer">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <span class="brand">CheeseYKek.</span>
+        <p>Handcrafted no-bake cheesecakes, puddings, and pancakes — made fresh every morning in Bangalore with love.</p>
+        <div class="footer-social mt-3">
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="col-md-2 offset-md-1">
+        <h6>Navigate</h6>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <h6>Favourites</h6>
+        <ul>
+          <li><a href="#">Cheesecakes</a></li>
+          <li><a href="#">Puddings</a></li>
+          <li><a href="#">Custom Cakes</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h6>Visit Us</h6>
+        <ul>
+          <li><a href="#">12, Rosewood Lane, Indiranagar</a></li>
+          <li><a href="#">Bangalore – 560038</a></li>
+          <li><a href="#">Tue – Sun: 9 AM – 7:30 PM</a></li>
+          <li><a href="mailto:hello@cheeseykey.in">hello@cheeseykey.in</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr class="footer-hr">
+    <p class="footer-copy">© 2025 CheeseYKek · Cheesey as You · Bangalore, India</p>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="main.js"></script>
+<script>
+  // ── Menu category tabs ──
+  document.querySelectorAll('.menu-tab').forEach(btn => {
+    btn.addEventListener('click', function () {
+      document.querySelectorAll('.menu-tab').forEach(b => b.classList.remove('active'));
+      this.classList.add('active');
+      const cat = this.dataset.cat;
+      document.querySelectorAll('.menu-cat').forEach(c => c.classList.add('d-none'));
+      document.getElementById('cat-' + cat).classList.remove('d-none');
+      // re-trigger reveal for newly visible cards
+      document.querySelectorAll('#cat-' + cat + ' .reveal').forEach((el, i) => {
+        el.style.transitionDelay = (i * 60) + 'ms';
+        el.classList.add('visible');
+      });
+    });
+  });
+  // Show first tab's cards on load
+  document.querySelectorAll('#cat-cheesecakes .reveal').forEach((el, i) => {
+    el.style.transitionDelay = (i * 60) + 'ms';
+    setTimeout(() => el.classList.add('visible'), 200);
+  });
+</script>
+</body>
+</html>
